@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <style>body {font-family: 'Montserrat', sans-serif;}</style>
+    <script defer src="./js/_08_eliminarEventos.js"></script>
+    
 </head>
 
 <body>
@@ -17,23 +18,52 @@
     <header>
         <h1>Portafolio profesional</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#presentacion">Inicio</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#formulario">Contacto</a></li>
+        </ul>
+    </nav>
+
 
     <main>
-        <section id="presentacion">
-            <h2>Quién soy</h2>
-            <p>Hola, soy Josue Antonio Godofredo Jimenez estudiante de diseño empresarial con interés en el diseño digital.</p>
+        <section id="presentacion" class="presentacion">
+            <h2>Presentación</h2>
+            <div class="contenido-presentacion">
+                <p>Hola, soy Josue Antonio Godofredo Jimenez, estudiante de diseño empresarial con interés en el diseño
+                    digital.</p>
+                <figure>
+                    <img src="foto de presentacion.png" class="imagen-reducida" alt="Retrato de Josue Antonio" />
+                </figure>
+            </div>
         </section>
 
-        <section id="habilidades">
+        <section id="habilidades" class="habilidades">
             <h2>Mis habilidades</h2>
-            <ul>
-                <li>Dibujo</li>
-                <li>Diseño</li>
-                <li>Diseño UX/UI</li>
-            </ul>
+            <div class="habilidades-grid">
+
+                <figure>
+                    <img src="https://via.placeholder.com/200x150?text=Dibujo" alt="Ilustración digital" />
+                    <figcaption>Dibujo</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="tortuga ninja rafael.png" alt="Diseño gráfico" />
+                    <figcaption>Diseño gráfico</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="diseño ux.png" alt="Interfaz de usuario" />
+                    <figcaption>Diseño UX/UI</figcaption>
+                </figure>
+
+            </div>
         </section>
 
-        <section id="formulario">
+
+        <section id="formulario" class="formulario">
             <h2>Contáctame</h2>
             <form action="#" method="post">
                 <label for="nombre">Nombre</label>
@@ -46,12 +76,17 @@
             </form>
         </section>
 
-        
+
     </main>
 
     <footer>
-        <p>© 2025 Josue Antonio Godofredo Jimenez. Todos los derechos reservados.</p>
-    </footer>
+  <p>© 2025 Josue Antonio Godofredo Jimenez</p>
+  <div class="redes">
+    <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
+    <a href="https://behance.net/tuusuario" target="_blank">Behance</a>
+  </div>
+</footer>
+
 
 </body>
 
