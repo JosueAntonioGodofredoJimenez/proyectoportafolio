@@ -94,6 +94,7 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 8px var(--color-sombra);
     transition: transform 0.3s ease;
+    text-align: center;
 }
 
 section:hover {
