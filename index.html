@@ -9,8 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <script defer src="./js/_08_eliminarEventos.js"></script>
-    
+    <script src="https://kit.fontawesome.com/2193d055c9.js" crossorigin="anonymous"></script>
+    <script defer src="./js/_01_eliminarEventos.js"></script>
+
+
 </head>
 
 <body>
@@ -33,10 +35,15 @@
             <h2>Presentación</h2>
             <div class="contenido-presentacion">
                 <p>Hola, soy Josue Antonio Godofredo Jimenez, estudiante de diseño empresarial con interés en el diseño
-                    digital.</p>
+                    digital, combinando creatividad, estrategia y tecnología para crear soluciones visuales impactantes.
+                </p>
+
                 <figure>
                     <img src="foto de presentacion.png" class="imagen-reducida" alt="Retrato de Josue Antonio" />
                 </figure>
+
+                <a class="btn" href="CV.pdf" download="CV">Descargar CV</a>
+
             </div>
         </section>
 
@@ -45,32 +52,48 @@
             <div class="habilidades-grid">
 
                 <figure>
-                    <img src="https://via.placeholder.com/200x150?text=Dibujo" alt="Ilustración digital" />
-                    <figcaption>Dibujo</figcaption>
+                    <img src="tortuga ninja rafael.png" alt="Ilustración digital" />
+                    <figcaption>Ilustración digital</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="tortuga ninja rafael.png" alt="Diseño gráfico" />
-                    <figcaption>Diseño gráfico</figcaption>
+                    <img src="diseño kfc.png" alt="Diseño gráfico" />
+                    <figcaption>Diseño publicitario</figcaption>
                 </figure>
 
                 <figure>
                     <img src="diseño ux.png" alt="Interfaz de usuario" />
-                    <figcaption>Diseño UX/UI</figcaption>
+                    <figcaption>Diseño web</figcaption>
                 </figure>
 
             </div>
         </section>
 
+        <section id="proyectos">
+            <h2>Proyectos destacados</h2>
+            <div class="proyectos-grid">
+                <figure>
+                    <img src="proyecto1.png" alt="Proyecto 1" />
+                    <figcaption>Diseño de app de finanzas - UX/UI</figcaption>
+                </figure>
+                <figure>
+                    <img src="proyecto2.png" alt="Proyecto 2" />
+                    <figcaption>Rediseño web para marca local</figcaption>
+                </figure>
+            </div>
+        </section>
+
+
 
         <section id="formulario" class="formulario">
             <h2>Contáctame</h2>
             <form action="#" method="post">
+                
                 <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                <i class="fa-solid fa-user"></i><input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required></i>
 
                 <label for="correo">Correo</label>
-                <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+                <i class="fa-solid fa-envelope"></i><input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
 
                 <button type="submit">Enviar</button>
             </form>
@@ -80,12 +103,17 @@
     </main>
 
     <footer>
-  <p>© 2025 Josue Antonio Godofredo Jimenez</p>
-  <div class="redes">
-    <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
-    <a href="https://behance.net/tuusuario" target="_blank">Behance</a>
-  </div>
-</footer>
+        <p>© 2025 Josue Antonio Godofredo Jimenez</p>
+        <div class="redes">
+            <a href="https://linkedin.com/in/tuusuario" target="_blank">
+                <img src="LinkedIn_2021.svg.png" alt="LinkedIn" width="100" />
+            </a>
+            <a href="https://github.com/JosueAntonioGodofredoJimenez" target="_blank">
+                <img src="GitHub-Logo.png" alt="GitHub" width="100" />
+            </a>
+        </div>
+
+    </footer>
 
 
 </body>
